@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cooling Process</string>
+    <string-array name="process">
+        <item>Set Process</item>
+        <item>cooling</item>
+        <item>heating</item>
+        <item>waiting</item>
+    </string-array>
+</resources>

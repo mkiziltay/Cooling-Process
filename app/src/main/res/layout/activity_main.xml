@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#090"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Time : "/>
+    <TextView
+        android:id="@+id/alarmTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#090"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Time : "/>
+
+    <TimePicker
+        android:id="@+id/picktime"
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:layout_gravity="center"
+        android:layout_below="@+id/picktime"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last temperature : "
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/degree"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinIt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/CardView"
+        android:dropDownSelector="@android:color/background_dark"/>
+
+
+
+
+
+</LinearLayout>
