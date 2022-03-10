@@ -1,5 +1,5 @@
 # Cooling-Process for Android Device
-Cooling program for meals
+this app for Cooling process or heating process for meals. 
 
 ## This app reminders users while cooling hot meals.
 ## cooling period with different temperetures.
