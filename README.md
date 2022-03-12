@@ -7,7 +7,8 @@ this app for Cooling process or heating process for meals.
 
 ## code written directories 
 * MainActivity.java
-* activity_main.xml => main layout including FrameLayout.
+* activity_main.xml
+* AlarmBroadcastReceiver.java 
 
 ## This app reminders users while cooling hot meals.
 ## cooling period with different temperetures.
